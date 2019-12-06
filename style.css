@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    background-color: #D2691E;
+}
+.content{
+    background-color: #FAEBD7;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.news{
+    width: 30%;
+}
+.content > p,h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#breaking{
+    display: flex;
+    flex-flow: row wrap;
+    align-items:flex-start;
+    order: -1;
+    width: 50%;
+}
+#breaking > h3{
+    display: flex;
+    font-size: 40px;
+    width: 100%;
+    justify-content: center;
+}
+;
+
